@@ -9,5 +9,4 @@ INCLUDEPATH += .
 
 # Input
 HEADERS += imageviewer.h
-SOURCES += imageviewer.cpp main.cpp \
-    bartekjestzajebisty.cpp
+SOURCES += imageviewer.cpp main.cpp
