@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+ <!ENTITY sekcja1 SYSTEM "articles/1/1.xml">
+ <!ENTITY sekcja2 SYSTEM "articles/2/2.xml">
+ ]>
+<article>
+  <articleinfo>
+    <title>Artykuł</title>
+    <author>
+        <personname>
+          <firstname>Mateusz</firstname>
+          <surname>Furgał</surname>
+        </personname>
+        <email>mateusz9@gmail.com</email>
+    </author>
+    <author>
+    <personname>
+      <firstname>Bartosz</firstname>
+      <surname>Zawada</surname>
+      </personname>
+      <email>bar32tek@gmail.com</email>
+    </author>
+    <author>
+    <personname>
+      <firstname>Wiesław</firstname>
+      <surname>Tkacz</surname>
+</personname>
+<email>lotnik265@gmail.com</email>
+    </author>
+    <author>
+    <personname>
+      <firstname>Karol</firstname>
+      <surname>Zarębkiewicz</surname>
+      </personname>
+      <email>tygrys3kk@gmail.com</email>
+    </author>
+    <pubdate>2009.01.03</pubdate>
+  </articleinfo>
+  &sekcja1;
+  &sekcja2;
+</article>
