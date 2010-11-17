@@ -2,7 +2,6 @@
 #define IMAGEVIEWER_H
 
 #include <QMainWindow>
-#include <QPrinter>
 
 class QAction;
 class QLabel;
@@ -19,7 +18,6 @@ public:
 
 private slots:
     void open();
-    void print();
     void zoomIn();
     void zoomOut();
     void normalSize();
@@ -42,10 +40,7 @@ private:
     QScrollArea *scrollArea;
     double scaleFactor;
 
-    QPrinter printer;
-
     QAction *openAct;
-    QAction *printAct;
     QAction *exitAct;
 
     QAction *zoomInAct;

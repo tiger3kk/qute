@@ -53,7 +53,6 @@ void ImageViewer::open()
         imageLabel->setPixmap(QPixmap::fromImage(image));
         scaleFactor = 1.0;
 
-        printAct->setEnabled(true);
         fitToWindowAct->setEnabled(true);
         updateActions();
 
@@ -121,7 +120,7 @@ void ImageViewer::negative()
 void ImageViewer::about()
 {
     QMessageBox::about(this, tr("About QuTe"),
-            tr("<b>QuTe 6.66 alpha-0</b><br/>Version: 0.1.1 21-10-2010"));
+            tr("<b>QuTe</b><br/>Version: 0.1.1 21-10-2010"));
 }
 
 void ImageViewer::createActions()
