@@ -1,4 +1,4 @@
-#include "scriptwindow.h"
+#include "include/scriptwindow.h"
 #include "ui_scriptwindow.h"
 
 scriptwindow::scriptwindow(QWidget *parent) :

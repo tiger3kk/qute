@@ -1,11 +1,11 @@
 #include <QApplication>
 
-#include "imageviewer.h"
+#include "include/mainwindow.h"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    ImageViewer imageViewer;
-    imageViewer.show();
+    MainWindow mainWindow;
+    mainWindow.show();
     return app.exec();
 }

@@ -6,7 +6,10 @@ TEMPLATE = app
 TARGET = 
 DEPENDPATH += .
 INCLUDEPATH += .
+DEFINES += VIEWER
 
 # Input
-HEADERS += imageviewer.h
-SOURCES += imageviewer.cpp main.cpp
+HEADERS += include/mainwindow.h include/scriptwindow.h
+SOURCES += src/app/mainwindow.cpp src/app/main.cpp src/script/scriptwindow.cpp
+
+FORMS    += src/script/scriptwindow.ui
